@@ -1,0 +1,35 @@
+#include<stdio.h>
+int main()
+{
+
+int no; 
+printf("Enter any number:\n");
+scanf("%d",&n); 
+
+switch (n)
+{
+  case'1':
+         printf("1.Food item-Pizza\n,
+                    Price -239");
+         break;
+  case'2':
+         printf("2.Food item-Burger\n,
+                    Price -129");
+         break;
+  case'3':
+         printf("3.Food item-Pasta\n,
+                    Price -179");
+         break;
+  case'4':
+         printf("4.Food item-French Fries\n,
+                    Price -99");
+         break;
+  case'5':
+          ("3.Food item-Sandwitch\n
+                    Price -149");
+         break;
+  default:
+            printf("Error! number is not correct");
+    }
+ return 0;
+ }
